@@ -3,7 +3,7 @@ from scapy.all import ARP, Ether, srp
 print('Please enter a valid IP address with subnet. Example: 192.168.0.1/24')
 
 #Destination IP 
-target_ip = '172.16.0.0/16'
+target_ip = input()
 
 #Create arp packet 
 arp = ARP(pdst=target_ip)
@@ -28,4 +28,5 @@ print('Here are the devices in this network')
 print('IP' + " " * 18 + 'MAC')
 for client in clients:
     print("{:16}    {}".format(client['ip'], client['mac']))
+
 
