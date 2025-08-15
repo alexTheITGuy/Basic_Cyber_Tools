@@ -1,6 +1,6 @@
 # Network_Scanner
-Use Scapy to create a network scanner with Python
-Prerequisites: Nocap 
+    Use Scapy to create a network scanner with Python
+    Prerequisites: Nocap 
 
 Functionality:
     Scan network and gather all connected IPv4 addresses and pair them with their MAC address.
