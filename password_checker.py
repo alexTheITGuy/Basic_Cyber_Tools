@@ -106,7 +106,7 @@ else:
         password_score = 0
 
     #Uncomment below to test password score functionality
-    if password_score == 10:
+    if password_score == 12:
         message = f"Your password score is {password_score} out of 12."
         print(message)
     
@@ -116,4 +116,3 @@ else:
 
         print()
         print('Try to include at least 15 characters, an upper case and lower case, as well as a number and a special character.')
-         
