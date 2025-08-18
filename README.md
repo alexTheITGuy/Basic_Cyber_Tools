@@ -14,4 +14,5 @@
         3. Lowercase Letters: Contains at least 1 lowercase letter. 
         4. Numbers: Contains at least 1 number.
         5. Special Characters: Includes at least 1 special character. 
-    
+
+        Maybe add this API: https://haveibeenpwned.com/api/v3#APIVersion
