@@ -1,7 +1,4 @@
 import socket
-import ipaddress
-import time
-import threading
 
 #AF_INET refers to IPv4 while SOCK_STREAM refers to TCP connection-oriented protocol
 #Creates a socket
